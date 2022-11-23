@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+.App ul{
+  list-style: none;
+}
+.App ul li{
+  background-color: #ccc;
+  color: blue;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
