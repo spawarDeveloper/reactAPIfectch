@@ -17,9 +17,9 @@ function App() {
     <div className="App">
       <h1>REACT JS API with fetch method</h1>
       <ul>
-        {user &&
-          user.length > 0 &&
-          user.map((item, i) => <li key={item.id}>{item.name}</li>)}
+        {user.map((item, i) => (
+          <li key={item.id}>{item.name}</li>
+        ))}
       </ul>
     </div>
   );
